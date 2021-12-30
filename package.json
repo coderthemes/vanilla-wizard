@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-wizard",
+  "version": "0.0.3",
+  "description": "Vanilla JS wizard with minimal configuration. It uses bootstrap css.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm-run-all",
+    "start": "run-p js:watch",
+    "build": "run-p js:build",
+    "js:build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [
+    "bootstrap",
+    "vanilla",
+    "wizard",
+    "bootstrap-wizard",
+    "javascript"
+  ],
+  "author": "Coderthemes",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
