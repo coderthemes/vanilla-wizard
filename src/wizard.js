@@ -1,15 +1,15 @@
 class Wizard {
-    constructor(element, {
-        validate = false, buttons = false, progress = false
-    }) {
+    constructor(element, options={}) {
+
         if (element instanceof HTMLElement) {
             this.wizard = element;
         } else {
             this.wizard = document.querySelector(element);
         }
-        this.validate = validate;
-        this.buttons = buttons;
-        this.progress = progress;
+
+        this.validate = options.validate ?? false;
+        this.buttons = options.buttons?? false;
+        this.progress = options.progress ?? false;
 
         this.initOptions();
         this.initEventListener();

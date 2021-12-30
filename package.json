@@ -1,13 +1,12 @@
 {
   "name": "vanilla-wizard",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Vanilla JS wizard with minimal configuration. It uses bootstrap css.",
   "main": "src/wizard.js",
   "scripts": {
     "test": "npm-run-all",
-    "start": "run-p js:watch",
-    "build": "run-p js:build",
-    "js:build": "webpack --config webpack.config.prod.js"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "keywords": [
     "bootstrap",
