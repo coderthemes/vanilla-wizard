@@ -36,14 +36,22 @@ new Wizard('#basic',{
 
 ```
 
-Live Examples (Codepen)
+Live Examples
 -------------
-
+<a href="https://github.com/coderthemes/vanilla-wizard/tree/main/example">Github Examples</a>
+<h5>Codepen Examples</h5>
 <ul>
 <li><a href='https://codepen.io/coderthemes/pen/ZEXrgrr'>Simple Wizard</a></li>
 <li><a href='https://codepen.io/coderthemes/pen/wvryVbd'>Form Validation Wizard</a></li>
 <li><a href='https://codepen.io/coderthemes/pen/xxXYvNe'>Progress Wizard</a></li>
 </ul>
+
+
+Issues & Features
+-----------------
+
+Create <a href="https://github.com/coderthemes/vanilla-wizard/issues">an issue</a> on GitHub or feel free to mail us on <a href="mailto:denish@coderthemes.com">denish@coderthemes.com</a>
+
 
 
 <p>&copy; <a href='https://coderthemes.com' target="_blank">Coderthemes Design LLP</a> 2022</p>
