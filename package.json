@@ -8,6 +8,19 @@
     "start": "gulp",
     "build": "gulp build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderthemes/vanilla-wizard.git"
+  },
+  "homepage": "https://coderthemes.com/",
+  "bugs": {
+    "url": "https://github.com/coderthemes/vanilla-wizard/issues"
+  },
+  "examples": [
+    "https://codepen.io/coderthemes/pen/ZEXrgrr",
+    "https://codepen.io/coderthemes/pen/wvryVbd",
+    "https://codepen.io/coderthemes/pen/xxXYvNe"
+  ],
   "keywords": [
     "bootstrap",
     "vanilla",

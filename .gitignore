@@ -1,1 +1,8 @@
 /node_modules/
+/.idea/.gitignore
+/.idea/bootstrap-wizard.iml
+/.idea/jsLibraryMappings.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/yarn-error.log

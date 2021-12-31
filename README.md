@@ -14,7 +14,7 @@ yarn add vanilla-wizard --save
 npm install vanilla-wizard --save 
 ```
 
-Code Examples
+How to Initialize
 -------------
 
 ```javascript
@@ -36,7 +36,14 @@ new Wizard('#basic',{
 
 ```
 
+Live Examples (Codepen)
+-------------
 
+<ul>
+<li><a href='https://codepen.io/coderthemes/pen/ZEXrgrr'>Simple Wizard</a></li>
+<li><a href='https://codepen.io/coderthemes/pen/wvryVbd'>Form Validation Wizard</a></li>
+<li><a href='https://codepen.io/coderthemes/pen/xxXYvNe'>Progress Wizard</a></li>
+</ul>
 
 
 <p>&copy; <a href='https://coderthemes.com' target="_blank">Coderthemes Design LLP</a> 2022</p>

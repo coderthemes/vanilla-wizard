@@ -1,0 +1,268 @@
+<!--Template Name: Progress Wizard Example-->
+<!--Author: CoderThemes-->
+<!--Website: https://coderthemes.com/-->
+<!--Contact: denish@coderthemes.com-->
+<!--File: simple-wizard -->
+<!--License: MIT -->
+<!-- NPM Package: https://www.npmjs.com/package/vanilla-wizard -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!-- CSS only -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+    />
+</head>
+<body>
+<div class="row align-items-center">
+    <div class="col-3"></div>
+    <div class="col-6">
+        <div id="basicwizard">
+            <ul class="nav nav-tabs nav-justified mb-3">
+                <li class="nav-item" data-target-form="#contactDetailForm">
+                    <a
+                            href="#contactDetail"
+                            data-bs-toggle="tab"
+                            data-toggle="tab"
+                            class="nav-link icon-btn active"
+                    >
+                        <i class="bx bxs-contact me-1"></i>
+                        <span class="d-none d-sm-inline">Contact Detail</span>
+                    </a>
+                </li>
+                <!-- end nav item -->
+                <li class="nav-item" data-target-form="#jobDetailForm">
+                    <a
+                            href="#jobDetail"
+                            data-bs-toggle="tab"
+                            data-toggle="tab"
+                            class="nav-link icon-btn"
+                    >
+                        <i class="bx bxs-building me-1"></i>
+                        <span class="d-none d-sm-inline">Job Detail</span>
+                    </a>
+                </li>
+                <!-- end nav item -->
+                <li class="nav-item" data-target-form="#educationDetailForm">
+                    <a
+                            href="#educationDetail"
+                            data-bs-toggle="tab"
+                            data-toggle="tab"
+                            class="nav-link icon-btn"
+                    >
+                        <i class="bx bxs-book me-1"></i>
+                        <span class="d-none d-sm-inline">Education Detail</span>
+                    </a>
+                </li>
+                <!-- end nav item -->
+                <li class="nav-item">
+                    <a
+                            href="#finish"
+                            data-bs-toggle="tab"
+                            data-toggle="tab"
+                            class="nav-link icon-btn"
+                    >
+                        <i class="bx bxs-check-circle me-1"></i>
+                        <span class="d-none d-sm-inline">Finish</span>
+                    </a>
+                </li>
+                <!-- end nav item -->
+            </ul>
+            <!-- nav pills -->
+
+            <div class="tab-content mb-0 pt-0">
+
+                <!-- START: Define your progress bar here -->
+                <div id="bar" class="progress mb-3" style="height: 7px;">
+                    <div class="bar progress-bar progress-bar-striped progress-bar-animated bg-success"></div>
+                </div>
+                <!-- END: Define your progress bar here -->
+
+
+                <!-- START: Define your tab pans here -->
+
+                <div class="tab-pane show active" id="contactDetail">
+                    <form id="contactForm" method="post" action="#">
+                        <h5 class="mb-3 mt-0">How the employers to contact you?</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="firstName">First Name</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="firstName"
+                                            placeholder="Enter your first name"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="lastName">Last Name</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="lastName"
+                                            placeholder="Enter your last name"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <!-- end contact detail tab pane -->
+                <div class="tab-pane" id="jobDetail">
+                    <form id="jobForm" method="post" action="#">
+                        <h5 class="my-3">Tell us about your most recent job</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="jobTitle">Job Title</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="jobTitle"
+                                            placeholder="enter your job title"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="employer">Employer</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="employer"
+                                            placeholder="enter emplyoer"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- end job detail tab pane -->
+                <div class="tab-pane" id="educationDetail">
+                    <form id="educationForm" method="post" action="#">
+                        <h5 class="mb-3 mt-0">Tell us about your education</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="schoolName">School Name</label>
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="schoolName"
+                                            placeholder="enter your school name"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="schoolLocation"
+                                    >School Location</label
+                                    >
+                                    <input
+                                            type="text"
+                                            class="form-control"
+                                            id="schoolLocation"
+                                            placeholder="enter your school location"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- end education detail tab pane -->
+                <div class="tab-pane" id="finish">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="text-center">
+                                <i class="bx bx-check-double h5"></i>
+                                <h3 class="mt-0">Thank you !</h3>
+                                <div class="mb-3">
+                                    <div class="form-check d-inline-block">
+                                        <input
+                                                type="checkbox"
+                                                class="form-check-input"
+                                                id="customCheck1"
+                                        />
+                                        <label class="form-check-label" for="customCheck1"
+                                        >I agree with the Terms and Conditions</label
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+
+                <!-- END: Define your tab pans here -->
+
+                <!-- START: Define your controller buttons here-->
+                <div class="d-flex wizard justify-content-between mt-3">
+                    <div class="first">
+                        <a href="javascript:void(0);" class="btn btn-primary">
+                            First
+                        </a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="previous me-2">
+                            <a href="javascript:void(0);" class="btn icon-btn btn-primary">
+                                <i class="bx bx-left-arrow-alt me-2"></i>Back To Previous
+                            </a>
+                        </div>
+                        <div class="next">
+                            <a
+                                    href="javascript:void(0);"
+                                    class="btn icon-btn btn-primary mt-3 mt-md-0"
+                            >
+                                Next Step<i class="bx bx-right-arrow-alt ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="last">
+                        <a href="javascript:void(0);" class="btn btn-primary mt-3 mt-md-0">
+                            Finish
+                        </a>
+                    </div>
+                </div>
+
+                <!-- END: Define your controller buttons here-->
+
+            </div>
+            <!-- end tab content-->
+        </div>
+        <!-- end basicwizard -->
+
+    </div>
+    <div class="col-3"></div>
+</div>
+</body>
+
+<!-- You need add bootstrap  -->
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+></script>
+
+<!--Import vanilla wizard here-->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-wizard@0.0.5" >
+</script>
+
+<!--Initializing a wizard with no configuration -->
+<script>
+    new Wizard("#basicwizard",{
+        progress: true
+    });
+</script>
+</html>
