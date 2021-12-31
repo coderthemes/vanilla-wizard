@@ -41,12 +41,9 @@ new Wizard('#basic', {
 
 Live Examples
 -------------
-<a href="https://github.com/coderthemes/vanilla-wizard/tree/main/example" target="_blank">Github Examples</a>
-<h5>Codepen Examples</h5>
 <ul>
-<li><a href='https://codepen.io/coderthemes/pen/ZEXrgrr' target="_blank">Simple Wizard</a></li>
-<li><a href='https://codepen.io/coderthemes/pen/wvryVbd' target="_blank">Form Validation Wizard</a></li>
-<li><a href='https://codepen.io/coderthemes/pen/xxXYvNe' target="_blank">Progress Wizard</a></li>
+<li><a href="https://github.com/coderthemes/vanilla-wizard/tree/main/example" target="_blank">Github Examples</a></li>
+<li><a href="https://codepen.io/collection/YyWRZz" target="_blank">Codepen Examples</a></li>
 </ul>
 
 

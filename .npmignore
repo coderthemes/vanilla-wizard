@@ -2,3 +2,4 @@ node_modules/
 .idea/
 .gitignore
 yarn-error.log
+example/

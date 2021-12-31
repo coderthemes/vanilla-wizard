@@ -1,6 +1,6 @@
 {
   "name": "vanilla-wizard",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Vanilla JS wizard with minimal configuration. It uses bootstrap css.",
   "main": "src/wizard.js",
   "scripts": {
@@ -16,11 +16,6 @@
   "bugs": {
     "url": "https://github.com/coderthemes/vanilla-wizard/issues"
   },
-  "examples": [
-    "https://codepen.io/coderthemes/pen/ZEXrgrr",
-    "https://codepen.io/coderthemes/pen/wvryVbd",
-    "https://codepen.io/coderthemes/pen/xxXYvNe"
-  ],
   "keywords": [
     "bootstrap",
     "vanilla",
